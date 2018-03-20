@@ -1,5 +1,8 @@
+# entrada: numéro inteiro (n)
+# saída: fatorial deste número (n!)
+
 # entra com o numero
-num = int(input("Digite o valor de n:")) #5
+num = int(input("Digite o valor de n:"))
 
 # indice i e variaveis
 i = 0
