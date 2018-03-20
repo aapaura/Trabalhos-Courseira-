@@ -5,25 +5,22 @@
 # de p são 1, -1, p e -p
 
 # entrando com um numero inteiro
-
 num = int(input("Digite um número inteiro:"))
 
 # indices e variaveis
-
 i = 2
 numeroPrimo = True
 
-# loop de verificação
-# todo numero não primo (p), é fatorável em numeros primos (f)
+# OBS:
+# todo numero não primo, é fatorável em numeros primo
 # seja p primo e p | ab, então p | a ou p| b
-# e isso acontece tal que ou a ou b sejam algum primo entre 2 e 7, visto que
-# utilizamos alfabeto numerico de base 10
 
-# testando divisores i < 10 ou menores que o próprio número
+# Loop de Verificação vai testar todos os  possíveis divisores i < 10 ou menores que o próprio número (no caso dele ser menor que 10)
 # enquanto não achar um divisor, esse numero é primo
 # se achar divisor, o numero não é primo
-# testando pelo num mod i --> resto da divisão de num por i
+# testando por num módulo i --> resto da divisão de num por i
 
+# loop
 while i < 10 and i < num and numeroPrimo: 
     mod = num % i
     if mod == 0:
