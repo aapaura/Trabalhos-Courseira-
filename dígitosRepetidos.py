@@ -1,7 +1,6 @@
 # Este programa procura em um número, se existem dois algarismos adjacentes que sejam iguais
 # ex: 12334 (repete o numero 3 duas vezes seguidas)
 
-
 #  entrando com n número - lido como strings
 num = input("Digite um número inteiro:")
 
